@@ -1,6 +1,6 @@
 // Vite automatically checks if it's running in production
 // Automatically switches between local development port and production root url
-const BASE_URL = "https://visitor-x-backend-xx9f.onrender.com";
+const BASE_URL = "https://visitor-x-backend-xx9f.https://visitor-x-backend-production.up.railway.appder.com";
 // 1. Function to GET all visitors
 export async function getAllVisitors() {
   try {

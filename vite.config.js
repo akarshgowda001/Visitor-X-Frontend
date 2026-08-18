@@ -8,7 +8,7 @@ export default defineConfig({
     proxy: {
       // Catch all local frontend calls starting with /api and redirect them to our database server safely
       '/api': {
-        target: 'http://visitorx.onrender.com',
+        target: 'http://visitorx.https://visitor-x-backend-production.up.railway.appder.com',
         changeOrigin: true,
         rewrite: (path) => path // Keeps the /api prefix fully intact for json-server
       }

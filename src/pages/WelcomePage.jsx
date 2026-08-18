@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://visitorx.onrender.com";
+  import.meta.env.VITE_API_BASE_URL || "https://visitorx.https://visitor-x-backend-production.up.railway.appder.com";
 
 export default function WelcomePage() {
   const navigate = useNavigate();

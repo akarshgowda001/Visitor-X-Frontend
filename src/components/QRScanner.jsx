@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./global.css";
 
 const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://visitorx.onrender.com";
+  import.meta.env.VITE_API_BASE_URL || "https://visitorx.https://visitor-x-backend-production.up.railway.appder.com";
 
 // Change these 2 endpoints if your backend Swagger has different names
 const GENERATE_QR_API = `${BASE_URL}/api/visitor/qr/generate`;

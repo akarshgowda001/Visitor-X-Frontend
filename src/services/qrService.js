@@ -1,5 +1,5 @@
 const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://visitor-x-backend.onrender.com";
+  import.meta.env.VITE_API_BASE_URL || "https://visitor-x-backend.https://visitor-x-backend-production.up.railway.appder.com";
 
 // Generate QR from backend
 export async function generateQrCode(visitorId) {
