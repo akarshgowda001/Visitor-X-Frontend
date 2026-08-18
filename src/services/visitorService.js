@@ -1,5 +1,5 @@
 const BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://visitor-x-backend.https://visitor-x-backend-production.up.railway.appder.com";
+  import.meta.env.VITE_API_BASE_URL || "https://visitor-x-backend-production.up.railway.app";
 
 async function handleResponse(response, errorMessage) {
   const text = await response.text();
