@@ -1,6 +1,6 @@
 // Vite automatically checks if it's running in production
 // Automatically switches between local development port and production root url
-const BASE_URL = "https://visitor-x-backend-xx9f.https://visitor-x-backend-production.up.railway.appder.com";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 // 1. Function to GET all visitors
 export async function getAllVisitors() {
   try {
